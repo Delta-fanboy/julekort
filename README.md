@@ -1,2 +1,0 @@
-# julekort
-julekort

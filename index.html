@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Julekort</title>
+
+    <script src="javascript/julekort.js"></script>
+</head>
+
+<body>
+    <div class="julekortDiv">
+        <div class="Til">
+            <h2>Julekort Generatoren</h2>
+            <p>Til:</p>
+            <input type="text" id="navn" placeholder="Til" />
+        </div>
+
+        <div class="tekst">
+            <p>Tekst:</p>
+            <textarea id="tekst" placeholder="Tekst"></textarea>
+        </div>
+
+        <div class="fra">
+            <p>Frå: </p>
+            <input type="text" id="fra" placeholder="Frå" />
+        </div>
+
+        <div class="bilde">
+            <p>Bilde: <select class="bilde">
+                    <option value="images/Nisse.jpeg">Nisse</option>
+                    <option value="images/Krans.jpg">Krans</option>
+                    <option value="images/julekule.jpg">Julekule</option>
+                </select> </p>
+
+        </div>
+
+        <div class="skriftfarge">
+            <p>Farge til skrift: <input type="color" id="skriftfarge" value="#000000"> </p>
+
+        </div>
+
+        <div class="bgfarge">
+            <p>Farge til bakgrunn: <input type="color" id="bkfarge" value="#000000"> </p>
+
+        </div>
+
+        <div class="button">
+            <button>Generer kort</button>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
